@@ -1,6 +1,6 @@
 {
   "name": "noobgl-vector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vector classes designed for noobgl",
   "main": "index.js",
   "repository": {
