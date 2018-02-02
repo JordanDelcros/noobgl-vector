@@ -6,6 +6,11 @@ export default class Vector3 {
 		return this;
 
 	}
+	get length(){
+
+		return Vector3.length(this.x, this.y, this.z);
+
+	}
 	set( x, y, z ){
 
 		this.x = x;
@@ -70,15 +75,13 @@ export default class Vector3 {
 	}
 	normalize(){
 
-		var length = Math.sqrt(this.x * this.x + this.y * this.y + this.z * this.z);
+		if( this.length > 0 ){
 
-		if( length > 0 ){
+			var x = this.x / this.length;
 
-			var x = this.x / length;
+			var y = this.y / this.length;
 
-			var y = this.y / length;
-
-			var z = this.z / length;
+			var z = this.z / this.length;
 
 			this.set(x, y, z);
 
@@ -90,6 +93,11 @@ export default class Vector3 {
 	clone(){
 
 		return new Vector3(this.x, this.y, this.z);
+
+	}
+	static length( x, y, z ){
+
+		return Math.sqrt((x * x) + (y * y) + (z * z))
 
 	}
 }

@@ -1,11 +1,11 @@
 {
   "name": "noobgl-vector",
   "version": "0.0.1",
-  "description": "Vector class designed for noobgl",
+  "description": "Vector classes designed for noobgl",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JordanDelcros/noobgl-vector.git"
+    "url": "git+https://github.com/noobgl/noobgl-vector.git"
   },
   "keywords": [
     "vector"
@@ -13,7 +13,8 @@
   "author": "Jordan Delcros",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JordanDelcros/noobgl-vector/issues"
+    "url": "https://github.com/noobgl/noobgl-vector/issues"
   },
-  "homepage": "https://github.com/JordanDelcros/noobgl-vector#readme"
+  "homepage": "https://github.com/noobgl/noobgl-vector#readme",
+  "dependencies": {}
 }
