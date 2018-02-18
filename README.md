@@ -13,7 +13,7 @@ npm install noobgl-vector
 ## Usage
 
 ```javascript
-import { Vector3 } from "noobgl";
+import { Vector3 } from "noobgl-vector";
 ```
 
 ## Documentation
